@@ -17,7 +17,7 @@
 My program stores messages in the string array **messages** and initiates a string field named **compMessage**, which together will be used to output the messages the server inputs. 
 The program starts by taking in the URL, and looks for the */add-message* path. If found, the program looks for the query and seperates it into two parameters, other wise the website will display "404 not found....".
 After being split, the two parameters are then substringed to create the desired arguements. These are then stored into two seperate fields. To create the actual message that will be displayed, the program combines the fields
-into a new string field: newMessage. This newMessage string is stored as an element within the **messages** array. Towards the end, there is a for loop that adds the messages into the **comMessage** string, which is then returned after the loop is exited.
+into a new string field: **newMessage**. This **newMessage** string is stored as an element within the **messages** array. Towards the end, there is a for loop that adds the messages into the **comMessage** string, which is then returned after the loop is exited.
 
 
 #  **2nd Screenshot: Using /add-message?s=No&user=PizzaMan2904**
