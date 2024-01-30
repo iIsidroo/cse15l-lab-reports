@@ -6,7 +6,7 @@ The current working directory is `/home`
 
 Here the cd command does not change the current working directly and appears to do absolutely nothing.
 
-![Image](LR1;SS2.png)
+![Image](LR1;SS1.png)
 
 Take #2: Current Working Directory `/home/lecture1/messages/`
 
