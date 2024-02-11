@@ -6,26 +6,27 @@
 
 ![Image](LR2;CODESS.png)
 
+# **UPDATED Code**
 
-# **1st Screenshot: Using /add-message?s=This%20is%20a%20test&user=Isidro**
 
-![Image](LR2;1stSS.png)
+# `1st Screenshot: Using /add-message?s=This%20is%20a%20test&user=Isidro`
+
+![Image](LR2NEWSS.png)
 
 **Description of my code:**
 
 
-My program stores messages in the string array **messages** and initiates a string field named **compMessage**, which together will be used to output the messages the server inputs. 
-The program starts by taking in the URL, and looks for the */add-message* path. If found, the program looks for the query and seperates it into two parameters, other wise the website will display "404 not found....".
+My program stores messages in the string ArrayList `messages` and initiates a string field named `compMessage`, which together will be used to output the messages the server inputs. The use of an ArrayList allows the program to store several messages, which is essential in communication. 
+Inside the handler class, the `handleRequest` method takes the url of type URI as a parameter, and looks for the `/add-message` path. If found, the program looks for the query and seperates it into two parameters, other wise the website will display "404 not found....".
 After being split, the two parameters are then substringed to create the desired arguements. These are then stored into two seperate fields. To create the actual message that will be displayed, the program combines the fields
-into a new string field: **newMessage**. This **newMessage** string is stored as an element within the **messages** array. Towards the end, there is a for loop that adds the messages into the **comMessage** string, which is then returned after the loop is exited.
+into a new string field: `newMessage`. This `newMessage` string is stored as an element within the `messages` ArrayList. Towards the end, there is a for loop that adds the messages into the `comMessage` string, which is then returned after the loop is exited. This output is the complete message history.
 
 
 #  **2nd Screenshot: Using /add-message?s=No&user=PizzaMan2904**
 
 ![Image](LR2;2ndSS.png)
 
-The second time this program is ran is almost identical to the first time. In fact, it runs simarily every time it runs. The only difference is that the **messages** array has one more element occupying it, 
-and therefore the comMessage string has more messages to temporarily store in order to output all the stored messages.
+The second time this program is ran is almost identical to the first time. Thhe `handleRequest` method once again takes in the url of type URI as a paramater and look for the `/add-message` path and creates the appropiate arguements from what it finds as before. The difference is that the `messages` ArrayList expands by one and also stores a new element, which is of course the new message. Later on, the for loop that adds onto the `comMessage` string also runs one more time than before in order to get all the messages it needs before the program outputs it. 
 
 ---
 
