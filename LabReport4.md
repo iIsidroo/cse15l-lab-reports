@@ -10,7 +10,7 @@ Since I have already signed into ieng6 plenty of times,
 
 it was appropriate to use the command history to avoid typing out the entire command.
 
-## STEP 5 (Clone your fork using your SSH URL
+## STEP 5 (Clone your fork using your SSH URL):
 Keys pressed: 
 
 `<Ctrl> <r> <g> <i> <t> <Space> <c> <l> <Tab> <Enter>`
