@@ -37,7 +37,9 @@ Hi, nice start to a bash script.
 
 Based on the behavior in the screenshot you provided us, it looks like the else statement runs for every single .java file that fits the second if condition (on line 4). 
 This is because you are running the command every single time you assign it to `output`. To capture the output of the command without actually running try using `2>&1`. 
-By using `2>&1`, both the output and any error messages produced by the command are captured and stored in the `output` variable. The second bug with your bash script 
+By using `2>&1`, both the output and any error messages produced by the command are captured and stored in the `output` variable. 
+
+The second bug with your bash script 
 has to do with your if condition (on line 9) when you are checking the output of the command in order to only echo it when there are errors with the file’s style. 
 I would approach this by checking for a pattern in the output. Try something like `grep -q “.....”. Good work and goodluck!
 
