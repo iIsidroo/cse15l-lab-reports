@@ -16,7 +16,7 @@ because of Academic integrity… The bug should also have nothing to do with the
 
 Here's the script:
 
-[Image](LR5;BUGGYSCRIPT.png)
+![Image](LR5;BUGGYSCRIPT.png)
 
 Current working directory: 
 
@@ -29,7 +29,7 @@ Here's the command:
 
 Here's the output:
 
-[Image](LR5;OUTPUT.png)
+![Image](LR5;OUTPUT.png)
 
 ### TA reply:
 
